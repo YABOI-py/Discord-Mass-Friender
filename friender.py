@@ -3,7 +3,6 @@ import httpx, threading, random, os
 
 os.system("cls||clear")
 def friender(token,userid):
-    
 
     count = 0
     while True:
@@ -40,7 +39,6 @@ def friender(token,userid):
                     else:
                         print("\033[31m[>] Error")
                     
-
                     
         except Exception as e:
             print("\033[31m[>] Something Whent Wrong")
